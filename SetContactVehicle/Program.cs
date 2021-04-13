@@ -14,7 +14,7 @@ namespace SetContactVehicle
     {
         static void Main(string[] args)
         {
-            var connectionString = @"Authtype = Office365; Url=https://motordatadev.crm4.dynamics.com/; Username=af.dev1@motordata.onmicrosoft.com; Password=vqCX6UCw7y";
+            var connectionString = @"Authtype = Office365; Url=your Dynamics URL; Username=UserName; Password=Password";
             CrmServiceClient client = new CrmServiceClient(connectionString);
             //OrganizationServiceContext context = new OrganizationServiceContext(client);
             EntityCollection entityCollection = null;
